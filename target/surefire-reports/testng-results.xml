@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="99197" started-at="2020-09-28T16:27:37Z" finished-at="2020-09-28T16:29:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="99197" started-at="2020-09-28T16:27:37Z" finished-at="2020-09-28T16:29:16Z">
+      <class name="com.myproject.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.myproject.testcases.LoginPageTest@737996a0]" name="setup" is-config="true" duration-ms="24306" started-at="2020-09-28T21:58:35Z" finished-at="2020-09-28T21:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login1()[pri:1, instance:com.myproject.testcases.LoginPageTest@737996a0]" name="login1" duration-ms="505" started-at="2020-09-28T21:58:59Z" finished-at="2020-09-28T21:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.testcases.LoginPageTest@737996a0]" name="teardown" is-config="true" duration-ms="4779" started-at="2020-09-28T21:59:00Z" finished-at="2020-09-28T21:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.myproject.testcases.LoginPageTest@737996a0]" name="setup" is-config="true" duration-ms="9646" started-at="2020-09-28T21:59:05Z" finished-at="2020-09-28T21:59:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="invalidlogin()[pri:2, instance:com.myproject.testcases.LoginPageTest@737996a0]" name="invalidlogin" duration-ms="717" started-at="2020-09-28T21:59:14Z" finished-at="2020-09-28T21:59:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.testcases.LoginPageTest@737996a0]" name="teardown" is-config="true" duration-ms="1045" started-at="2020-09-28T21:59:15Z" finished-at="2020-09-28T21:59:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.myproject.testcases.LoginPageTest -->
+      <class name="com.myproject.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.myproject.testcases.HomePageTest@61dc03ce]" name="setup" is-config="true" duration-ms="41675" started-at="2020-09-28T21:57:37Z" finished-at="2020-09-28T21:58:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyhomepage()[pri:0, instance:com.myproject.testcases.HomePageTest@61dc03ce]" name="verifyhomepage" duration-ms="8477" started-at="2020-09-28T21:58:19Z" finished-at="2020-09-28T21:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomepage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.testcases.HomePageTest@61dc03ce]" name="teardown" is-config="true" duration-ms="7967" started-at="2020-09-28T21:58:27Z" finished-at="2020-09-28T21:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.myproject.testcases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

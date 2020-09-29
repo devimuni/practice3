@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.myproject.testcases.HomePageTest">
+        <methods>
+          <include name="verifyhomepage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.myproject.testcases.HomePageTest -->
+      <class name="com.myproject.testcases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.myproject.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

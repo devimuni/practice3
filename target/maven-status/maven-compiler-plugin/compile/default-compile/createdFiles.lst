@@ -1,0 +1,4 @@
+com\myproject\baseclass\Baseclass.class
+com\myproject\pageobjects\Homepage.class
+com\myproject\pageobjects\Loginpage.class
+com\myproject\actionclass\ActionClass.class
