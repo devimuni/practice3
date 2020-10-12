@@ -24,7 +24,7 @@ public class LoginPageTest extends Basetest{
 		homepage = new Homepage();
 		String actual = homepage.getText();
 		String org = "Hello naresh, let's complete the test form:";
-		Assert.assertEquals(org, actual);
+		Assert.assertEquals(actual,org);
 		
 	}
 	@Test(priority =2)
@@ -32,9 +32,10 @@ public class LoginPageTest extends Basetest{
 	{
 		loginpage = new Loginpage();
 		loginpage.login();
-		String actual = loginpage.gettxtmsg();
-		String org = "Please provide your full name";
-		Assert.assertEquals(org, actual);
+		homepage = new Homepage();
+		String actual = homepage.getText();
+		String org = "Hello naresh, let's complete the test form:";
+		Assert.assertEquals(actual,org);
 		
 		
 	}

@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 103.338 s - in TestSuite
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 99.375 s <<< FAILURE! - in TestSuite
+com.myproject.testcases.LoginPageTest.invalidlogin  Time elapsed: 0.397 s  <<< FAILURE!
+java.lang.AssertionError: expected [Hello naresh, let's complete the test form:] but found []
+	at com.myproject.testcases.LoginPageTest.invalidlogin(LoginPageTest.java:38)
+

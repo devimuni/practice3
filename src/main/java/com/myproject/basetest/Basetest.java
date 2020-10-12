@@ -20,9 +20,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Basetest {
 
 	public static Properties prop;
+	//public static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 	public static WebDriver driver;
 	public Basepage action;
-
+	
+	/*protected  WebDriver getDriver() {
+		// Get Driver from threadLocalmap
+		return driver.get();
+	}*/
 
 	@BeforeMethod(groups={"sanity","Regression"})
 	@Parameters("browser")
@@ -43,29 +48,28 @@ public class Basetest {
 		catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			System.out.println(e.getStackTrace());
 		}
-
-
-
-		WebDriverManager.chromedriver().setup();
-
+		
+		
 
 		//String browsername = prop.getProperty("browser");
 		if(browsername.contains("Chrome"))
-		{
-			driver= new ChromeDriver();
+		{   
+			WebDriverManager.chromedriver().setup();
+			driver=new ChromeDriver();
 		}
 		else if(browsername.contains("Firefox"))
 
 		{
-
-			driver = new FirefoxDriver();
+			WebDriverManager.firefoxdriver().setup();
+			driver= new FirefoxDriver();
 
 		}
 		else if (browsername.contains("IE"))
 		{
-
-			driver =new InternetExplorerDriver();
+			WebDriverManager.iedriver().setup();
+			driver=new InternetExplorerDriver();
 
 		}
 		Basepage.windowmax(driver);

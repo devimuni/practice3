@@ -6,8 +6,6 @@ import org.openqa.selenium.WebElement;
 
 import com.myproject.basetest.Basetest;
 
-
-
 public class Basepage extends Basetest {
 	
 	WebDriver ldriver;

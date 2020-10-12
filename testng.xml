@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-	<test name="Test">
+<suite name="Suite" parallel="tests" thread-count="2">
+
+	<listeners>
+		<listener
+			class-name="com.myproject.utilities.Listeners" />
+	</listeners>
+
+	<test name="Test1">
+		<parameter name="browser" value="Firefox" />
+		<groups>
+			<run>
+				<include name="Regression"></include>
+
+			</run>
+		</groups>
+		<classes>
+			<class name="com.myproject.testcases.LoginPageTest" />
+			<class name="com.myproject.testcases.HomePageTest" />
+		</classes>
+	</test>
+
+	<test name="Test2">
+		<parameter name="browser" value="IE" />
+		<groups>
+			<run>
+				<include name="Regression"></include>
+
+			</run>
+		</groups>
+		<classes>
+			<class name="com.myproject.testcases.LoginPageTest" />
+			<class name="com.myproject.testcases.HomePageTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test3">
 		<parameter name="browser" value="Chrome" />
 		<groups>
 			<run>
@@ -14,4 +48,7 @@
 			<class name="com.myproject.testcases.HomePageTest" />
 		</classes>
 	</test> <!-- Test -->
-</suite> <!-- Suite -->
+
+
+</suite> 
+	

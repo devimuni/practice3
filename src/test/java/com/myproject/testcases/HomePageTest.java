@@ -24,13 +24,9 @@ public class HomePageTest extends Basetest{
 		homepage = new Homepage();
 		String actual = homepage.getText();
 		String org = "Hello naresh, let's complete the test form:";
-		Assert.assertEquals(org, actual);
-		
+		Assert.assertEquals(actual,org);
+				
 		homepage.clicklogout();
-		
-		String actual1 = homepage.checkText();
-		String org1 = "This is the TestProject playground website. Feel free to play around it :)";
-		Assert.assertEquals(org1, actual1);
 		
 				
 		
