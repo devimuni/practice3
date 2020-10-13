@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="98089" started-at="2020-10-12T17:30:38Z" finished-at="2020-10-12T17:32:16Z">
+  <suite name="Suite" duration-ms="55454" started-at="2020-10-13T05:08:55Z" finished-at="2020-10-13T05:09:51Z">
     <groups>
       <group name="Regression">
         <method signature="HomePageTest.verifyhomepage()[pri:3, instance:com.myproject.testcases.HomePageTest@61a485d2]" name="verifyhomepage" class="com.myproject.testcases.HomePageTest"/>
@@ -12,9 +12,9 @@
         <method signature="LoginPageTest.login1()[pri:1, instance:com.myproject.testcases.LoginPageTest@59e84876]" name="login1" class="com.myproject.testcases.LoginPageTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="Test" duration-ms="98089" started-at="2020-10-12T17:30:38Z" finished-at="2020-10-12T17:32:16Z">
+    <test name="Test" duration-ms="55454" started-at="2020-10-13T05:08:55Z" finished-at="2020-10-13T05:09:51Z">
       <class name="com.myproject.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.myproject.testcases.LoginPageTest@59e84876]" name="setup" is-config="true" duration-ms="14701" started-at="2020-10-12T23:00:38Z" finished-at="2020-10-12T23:00:53Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.myproject.testcases.LoginPageTest@59e84876]" name="setup" is-config="true" duration-ms="26272" started-at="2020-10-13T10:38:56Z" finished-at="2020-10-13T10:39:22Z">
           <params>
             <param index="0">
               <value>
@@ -25,15 +25,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login1()[pri:1, instance:com.myproject.testcases.LoginPageTest@59e84876]" name="login1" duration-ms="9666" started-at="2020-10-12T23:00:53Z" finished-at="2020-10-12T23:01:03Z">
+        <test-method status="PASS" signature="login1()[pri:1, instance:com.myproject.testcases.LoginPageTest@59e84876]" name="login1" duration-ms="1028" started-at="2020-10-13T10:39:22Z" finished-at="2020-10-13T10:39:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login1 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.testcases.LoginPageTest@59e84876]" name="teardown" is-config="true" duration-ms="4394" started-at="2020-10-12T23:01:03Z" finished-at="2020-10-12T23:01:07Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.testcases.LoginPageTest@59e84876]" name="teardown" is-config="true" duration-ms="2190" started-at="2020-10-13T10:39:23Z" finished-at="2020-10-13T10:39:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.myproject.testcases.LoginPageTest@59e84876]" name="setup" is-config="true" duration-ms="15372" started-at="2020-10-12T23:01:07Z" finished-at="2020-10-12T23:01:22Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.myproject.testcases.LoginPageTest@59e84876]" name="setup" is-config="true" duration-ms="9261" started-at="2020-10-13T10:39:25Z" finished-at="2020-10-13T10:39:34Z">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="invalidlogin()[pri:2, instance:com.myproject.testcases.LoginPageTest@59e84876]" name="invalidlogin" duration-ms="433" started-at="2020-10-12T23:01:22Z" finished-at="2020-10-12T23:01:23Z">
+        <test-method status="FAIL" signature="invalidlogin()[pri:2, instance:com.myproject.testcases.LoginPageTest@59e84876]" name="invalidlogin" duration-ms="400" started-at="2020-10-13T10:39:34Z" finished-at="2020-10-13T10:39:35Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Hello naresh, let's complete the test form:] but found []]]>
@@ -93,13 +93,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidlogin -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.testcases.LoginPageTest@59e84876]" name="teardown" is-config="true" duration-ms="17950" started-at="2020-10-12T23:01:23Z" finished-at="2020-10-12T23:01:41Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.testcases.LoginPageTest@59e84876]" name="teardown" is-config="true" duration-ms="6267" started-at="2020-10-13T10:39:35Z" finished-at="2020-10-13T10:39:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.myproject.testcases.LoginPageTest -->
       <class name="com.myproject.testcases.HomePageTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.myproject.testcases.HomePageTest@61a485d2]" name="setup" is-config="true" duration-ms="27555" started-at="2020-10-12T23:01:41Z" finished-at="2020-10-12T23:02:08Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.myproject.testcases.HomePageTest@61a485d2]" name="setup" is-config="true" duration-ms="6735" started-at="2020-10-13T10:39:41Z" finished-at="2020-10-13T10:39:48Z">
           <params>
             <param index="0">
               <value>
@@ -110,11 +110,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyhomepage()[pri:3, instance:com.myproject.testcases.HomePageTest@61a485d2]" name="verifyhomepage" duration-ms="1796" started-at="2020-10-12T23:02:08Z" finished-at="2020-10-12T23:02:10Z">
+        <test-method status="PASS" signature="verifyhomepage()[pri:3, instance:com.myproject.testcases.HomePageTest@61a485d2]" name="verifyhomepage" duration-ms="1646" started-at="2020-10-13T10:39:48Z" finished-at="2020-10-13T10:39:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyhomepage -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.testcases.HomePageTest@61a485d2]" name="teardown" is-config="true" duration-ms="6148" started-at="2020-10-12T23:02:10Z" finished-at="2020-10-12T23:02:16Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.testcases.HomePageTest@61a485d2]" name="teardown" is-config="true" duration-ms="1593" started-at="2020-10-13T10:39:49Z" finished-at="2020-10-13T10:39:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -27,6 +27,8 @@ public class LoginPageTest extends Basetest{
 		Assert.assertEquals(actual,org);
 		
 	}
+	
+	//invalid login details
 	@Test(priority =2)
 	public void invalidlogin()
 	{
